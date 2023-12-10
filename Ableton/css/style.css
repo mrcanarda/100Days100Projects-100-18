@@ -1,0 +1,572 @@
+/*
+
+font-family: 'Commissioner', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/******************* GLOBAL VARIABLES ***********/
+
+:root {
+  --Color-ein: #fbffa7;
+  --Color-zwei: #ff764d;
+  --Color-drei: #b1c5ff;
+  --Color-viel: #d5b3ff;
+  --Color-funf: #b6ffc0;
+  --Color-sechs: #0000ff;
+}
+
+/************************
+*********** NAV *******
+**********************/
+
+.logo__img {
+  width: 7rem;
+  margin-left: 2rem;
+}
+
+.logo__img {
+  margin-right: 2rem;
+}
+
+.navg_2 {
+  margin-left: 3rem;
+  background-color: #fff;
+}
+
+.navg {
+  background-color: #fff;
+}
+
+.navg__ {
+  border-bottom: 2px solid #3333335c;
+}
+
+/************************
+***** NAV LINKS *******
+**********************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.nav__link:hover,
+.nav__link:active {
+  color: var(--Color-zwei);
+}
+
+.try__free_link:link,
+.try__free_link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.try__free_link:hover,
+.try__free_link:active {
+  color: var(--Color-sechs);
+}
+
+.register:link,
+.register:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.register:hover,
+.register:active {
+  color: #333;
+}
+
+.list:link,
+.list:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-zwei);
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.list:hover,
+.list:active {
+  color: var(--Color-zwei);
+}
+
+.register_list:link,
+.register_list:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-zwei);
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.register_list:hover,
+.register_list:active {
+  color: var(--Color-zwei);
+}
+
+.buy__now:link,
+.buy__now:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.buy__now:hover,
+.buy__now:active {
+  color: var(--Color-sechs);
+}
+
+.learn__more__link:link,
+.learn__more__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.learn__more__link:hover,
+.learn__more__link:active {
+  color: var(--Color-sechs);
+}
+
+/************************
+********* HOME PAGE
+***********LINK *****
+**********************/
+
+.save__link:link,
+.save__link:visited {
+  display: inline-block;
+  color: var(--Color-sechs);
+  margin-top: 30rem;
+  margin-left: 3rem;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.save__link:hover,
+.save__link:active {
+  color: var(--Color-sechs);
+}
+
+.shop__ion {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.only__link:link,
+.only__link:visited {
+  display: inline-block;
+  color: var(--Color-ein);
+  margin-top: 10rem;
+  margin-left: 7rem;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.only__link:hover,
+.only__link:active {
+  color: var(--Color-ein);
+}
+
+.order__ion {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.new__link:link,
+.new__link:visited {
+  display: inline-block;
+  color: var(--Color-zwei);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.new__link:hover,
+.new__link:active {
+  color: var(--Color-zwei);
+}
+
+.order__ion {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.new__note > p {
+  font-family: "Commissioner", sans-serif;
+  font-size: 2rem;
+  color: var(--Color-zwei);
+  margin-top: 15rem;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+
+.the__latest__link:link,
+.the__latest__link:visited {
+  display: inline-block;
+  color: var(--Color-sechs);
+  display: flex;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.the__latest__link:hover,
+.the__latest__link:active {
+  color: var(--Color-sechs);
+}
+
+.the__latest > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+
+/************************
+********* ART INFOS *****
+**********************/
+
+.artists__img {
+  width: 40rem;
+  height: 20rem;
+}
+
+.art__jobs {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.2rem;
+  width: 6rem;
+  height: 3rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+  background-color: #fed134;
+}
+
+.art__link:link,
+.art__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  display: flex;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  color: #000;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.art__link:hover,
+.art__link:active {
+  color: #000;
+}
+
+.art__names {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+  margin-top: 1.2rem;
+}
+
+.news__art {
+  background-color: var(--Color-viel);
+}
+
+.discover__icn {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.icn__ {
+  width: 1.2rem;
+  margin-top: 0.7rem;
+  padding-left: 0.5rem;
+}
+
+.art__infos__:link,
+.art__infos__:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--Color-sechs);
+  display: flex;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  color: #000;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.art__infos__:hover,
+.art__infos__:active {
+  color: #000;
+}
+
+.more__homepage {
+  height: 14rem;
+  background-color: rgba(128, 128, 128, 0.212);
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+}
+
+.more__homepage > h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.more__link:link,
+.more__link:visited {
+  display: inline-block;
+  color: var(--Color-sechs);
+  text-decoration: none;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.more__link:hover,
+.more__link:active {
+  color: #000;
+}
+
+/*****************+
+*** FOOTER *********
+********************/
+
+.fotter > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.footer__links:link,
+.footer__links:visited {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  font-weight: 300;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.footer__links:hover,
+.footer__links:active {
+  color: #333;
+}
+
+.one__footer__links > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
+}
+
+.one__footer__links > p {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  width: 90%;
+  line-height: 1.8;
+}
+
+.input__footer__number__one > input {
+  width: 30rem;
+  height: 4rem;
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.6rem;
+}
+
+.sign__button {
+  font-family: "Commissioner", sans-serif;
+  background-color: #0000ff;
+  color: #fff;
+  font-weight: 700;
+  width: 12rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.one__footer__links {
+  margin-bottom: 12rem;
+}
+
+/*****************+
+*** LIVE PAGE *********
+********************/
+
+.live__12__page__header {
+  font-family: "Commissioner", sans-serif;
+  font-size: 4.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 6rem;
+}
+
+.video__under__paragraph {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.4rem;
+  margin-left: 1.4rem;
+  font-weight: 500;
+}
+
+.find__out {
+  font-family: "Commissioner", sans-serif;
+  font-size: 3rem;
+  margin-top: 6rem;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+.jump__lst {
+  font-size: 1.4rem;
+}
+
+.jump__link {
+  font-size: 1.4rem;
+}
+
+.jump__link:link,
+.jump__link:visited {
+  display: inline-block;
+  color: var(--Color-sechs);
+  text-decoration: none;
+  display: flex;
+  font-weight: 300;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+.jump__link:hover,
+.jump__link:active {
+  color: var(--Color-sechs);
+}
+
+.jumpp__ {
+  margin-top: 2.4rem;
+  align-items: center;
+  align-self: center;
+}
+
+.twoo__ {
+  padding-top: 8rem;
+  background-color: #ebf0dc;
+}
+
+.twoo__ > h1 {
+  margin-bottom: 8rem;
+  margin-left: 7rem;
+  font-weight: 500;
+  font-family: "Commissioner", sans-serif;
+  font-size: 6rem;
+}
+
+.reshape > h1 {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.reshape > p {
+  margin-top: 2rem;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.reshape__two {
+  margin-top: 6rem;
+}
+
+.reshape__two h1 {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.reshape__two > p {
+  margin-top: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  width: 65%;
+  font-family: "Commissioner", sans-serif;
+}
+
+.__emprace > p {
+  width: 72%;
+  line-height: 1.6;
+}
+
+.__emprace__ {
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.__emprace__ > p {
+  line-height: 1.6;
+}
+
+/************************
+********* HIDDEN *****
+**********************/
+
+.hidden {
+  display: none;
+}

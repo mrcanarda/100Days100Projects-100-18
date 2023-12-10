@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--7-cols {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.grid--9-cols {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.flex {
+  display: flex;
+}
+
+.try__free {
+  margin-left: 54rem;
+}
+
+.scr__shpng {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40rem;
+}
+
+.scr__shpng > p {
+  color: #333;
+  font-size: 1.6rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.meal-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.logo__img {
+  width: 7rem;
+  margin-left: 2rem;
+}
+
+.logo__img {
+  margin-right: 2rem;
+}
+
+.navg_2 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  background-color: #fff;
+}
+
+/**************
+***** HOME PAGE LINKS ****
+*******/
+
+.savezwanzig {
+  background-image: url(../img/F-save20.jpeg);
+  height: 50rem;
+  background-size: cover;
+}
+
+.only__until {
+  top: 36%;
+  left: 70%;
+  position: absolute;
+  background-image: url(../img/onlyuntilnovember.jpeg);
+  background-size: cover;
+  width: 40rem;
+  height: 34rem;
+}
+
+.new__note {
+  top: 70%;
+  left: 48%;
+  position: absolute;
+  background-image: url(../img/wesley-tingey-4q_1c0rd1A0-unsplash.jpg);
+  background-size: cover;
+  width: 40rem;
+  height: 30rem;
+}
+
+.home__page__links {
+  margin-top: 30rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.the__latest__links {
+  margin-left: 22rem;
+  gap: 3rem;
+}
+
+.links__ {
+  align-items: center;
+}
+
+.artists__ {
+  margin-top: 5rem;
+}
+
+.expand__link__ {
+  margin-top: 5rem;
+  align-items: center;
+  align-content: stretch;
+  gap: 48rem;
+}
+
+.one__thing {
+  gap: 20rem;
+}
+
+.more__homepage {
+  margin-top: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+/*****************+
+*** LIVE PAGE *********
+********************/
+
+.live__12__page__two {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.live__page__links {
+  margin-bottom: 4rem;
+}
+
+.guitar__video {
+  height: 89rem;
+  width: 144rem;
+}
+
+.play__freely__with {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.reshape {
+  flex-direction: column;
+}
+
+.page__exp {
+  margin-top: 12rem;
+  margin-left: 12rem;
+  margin-right: 5rem;
+  gap: 1rem;
+}
+
+.reshape__img {
+  width: 50rem;
+}
+
+.two {
+  margin-top: 12rem;
+  margin-left: 22rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.three__ {
+  margin-right: 0rem;
+  gap: 2rem;
+}
+
+.tuning__ {
+  margin-top: 2rem;
+}
+
+.four__ {
+  margin-left: 0rem;
+  gap: 4rem;
+}
+
+/*****************+
+*** FOOTER *********
+********************/
+
+.fotter {
+  margin-top: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.one__footer__links {
+  margin-top: 6rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ion__social__media {
+  width: 4rem;
+  height: 4rem;
+}
